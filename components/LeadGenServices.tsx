@@ -29,346 +29,15 @@ interface ServiceGroup {
 
 const SERVICE_GROUPS: ServiceGroup[] = [
   {
-    id: "linkedin",
-    number: "01",
-    title: "LinkedIn outreach",
-    subtitle: "Connection and follow-up sequences built on Sales Navigator, written for each segment.",
-    projectCount: "7 client projects",
-    clients: [
-      {
-        tag: "LINKEDIN OUTREACH",
-        client: "Digicomplish",
-        industry: "RPO",
-        description:
-          "LinkedIn outreach that puts an RPO firm in front of hiring leaders. Targeted HR and talent acquisition heads with Sales Navigator lists and personalised follow-up sequences.",
-        metrics: [
-          { value: "29%", label: "acceptance rate" },
-          { value: "9%", label: "reply rate" },
-          { value: "18", label: "meetings booked" },
-        ],
-      },
-      {
-        tag: "LINKEDIN OUTREACH",
-        client: "Netciples",
-        industry: "IT",
-        description:
-          "A 12-week LinkedIn outreach plan for an IT services company: 180 connection requests a week through Sales Navigator, with every qualified lead logged in a shared tracker.",
-        metrics: [
-          { value: "27%", label: "acceptance rate" },
-          { value: "8%", label: "reply rate" },
-          { value: "31", label: "qualified leads in 12 weeks" },
-        ],
-      },
-      {
-        tag: "LINKEDIN OUTREACH",
-        client: "MPME Abrasives & Munshi OS",
-        industry: "Manufacturing / Industrial Software",
-        description:
-          "Outreach to plant, maintenance and procurement heads at foundries, forging and fabrication units for shotblasting abrasives and plant operations software.",
-        metrics: [
-          { value: "24%", label: "acceptance rate" },
-          { value: "7%", label: "reply rate" },
-          { value: "11", label: "buyer enquiries" },
-        ],
-      },
-      {
-        tag: "LINKEDIN OUTREACH",
-        client: "Bell & Check Point",
-        industry: "Cybersecurity & Telecommunications",
-        description:
-          "Account-based outreach to IT and security leaders evaluating business network, telecom and cybersecurity solutions.",
-        metrics: [
-          { value: "22%", label: "acceptance rate" },
-          { value: "6%", label: "reply rate" },
-          { value: "15", label: "meetings booked" },
-        ],
-      },
-      {
-        tag: "LINKEDIN OUTREACH",
-        client: "Sparx Digital & Baruni Solutions",
-        industry: "IT",
-        description:
-          "LinkedIn outreach to businesses in the UAE and India looking for managed IT, cloud and custom software partners.",
-        metrics: [
-          { value: "26%", label: "acceptance rate" },
-          { value: "8%", label: "reply rate" },
-          { value: "13", label: "meetings booked" },
-        ],
-      },
-      {
-        tag: "LINKEDIN OUTREACH",
-        client: "Slatt Capital",
-        industry: "Financial Services",
-        description:
-          "Outreach to commercial property owners and investors who need financing for office, retail, industrial and multifamily assets.",
-        metrics: [
-          { value: "31%", label: "acceptance rate" },
-          { value: "10%", label: "reply rate" },
-          { value: "16", label: "financing calls" },
-        ],
-      },
-      {
-        tag: "LINKEDIN OUTREACH",
-        client: "Hypertel Group",
-        industry: "Telecommunications",
-        description:
-          "LinkedIn outreach to Canadian business owners and IT managers looking for business internet and VoIP phone systems.",
-        metrics: [
-          { value: "28%", label: "acceptance rate" },
-          { value: "9%", label: "reply rate" },
-          { value: "12", label: "meetings booked" },
-        ],
-      },
-    ],
-  },
-  {
-    id: "email",
-    number: "02",
-    title: "Email marketing",
-    subtitle: "Cold and nurture email campaigns, from warmed sending setups to booked calls.",
-    projectCount: "7 client projects",
-    clients: [
-      {
-        tag: "EMAIL MARKETING",
-        client: "Primrose School of Rockland, MA",
-        industry: "Education",
-        description:
-          "A $4,000 tuition offer that brought families back for a tour. Split past enquiries into two lists and ran a 6-email Mailchimp campaign from the school owner's own inbox.",
-        metrics: [
-          { value: "48%", label: "open rate" },
-          { value: "11", label: "parent replies" },
-          { value: "6", label: "tours booked" },
-        ],
-      },
-      {
-        tag: "COLD EMAIL",
-        client: "Aptibit",
-        industry: "AI & Software Development",
-        description:
-          "Cold email outreach that opened new B2B conversations. Warmed sending domains, verified lists and short sequences pitching custom AI, computer vision and enterprise software to business buyers.",
-        metrics: [
-          { value: "42%", label: "open rate" },
-          { value: "4.8%", label: "reply rate" },
-          { value: "12", label: "meetings booked" },
-        ],
-      },
-      {
-        tag: "EMAIL MARKETING",
-        client: "Bootz To Heelz",
-        industry: "Business Coaching",
-        description:
-          "Nurture emails to business owners and corporate leaders that turned subscribers into leadership coaching calls.",
-        metrics: [
-          { value: "44%", label: "open rate" },
-          { value: "3.9%", label: "click rate" },
-          { value: "14", label: "discovery calls" },
-        ],
-      },
-      {
-        tag: "COLD EMAIL",
-        client: "Belt Conveyor Guarding",
-        industry: "Manufacturing",
-        description:
-          "Cold email to safety and maintenance managers at North American mining and bulk-handling sites that need compliant conveyor guards.",
-        metrics: [
-          { value: "39%", label: "open rate" },
-          { value: "3.6%", label: "reply rate" },
-          { value: "9", label: "guarding assessments booked" },
-        ],
-      },
-      {
-        tag: "EMAIL MARKETING",
-        client: "Table Tutor",
-        industry: "SaaS",
-        description:
-          "Email sequences to restaurant owners and managers that moved sign-ups toward a demo of the staff training app.",
-        metrics: [
-          { value: "41%", label: "open rate" },
-          { value: "4.2%", label: "click rate" },
-          { value: "22", label: "demo sign-ups" },
-        ],
-      },
-      {
-        tag: "EMAIL MARKETING",
-        client: "Swopelees",
-        industry: "Real Estate",
-        description:
-          "Listing emails to businesses and investors looking to buy or lease commercial space in Chester County, Pennsylvania.",
-        metrics: [
-          { value: "46%", label: "open rate" },
-          { value: "5.1%", label: "click rate" },
-          { value: "19", label: "property enquiries" },
-        ],
-      },
-      {
-        tag: "COLD EMAIL",
-        client: "The Gate PM Management",
-        industry: "Property Renovation",
-        description:
-          "Cold email to UK landlords and property managers planning renovation work.",
-        metrics: [
-          { value: "40%", label: "open rate" },
-          { value: "4.2%", label: "reply rate" },
-          { value: "10", label: "site visits booked" },
-        ],
-      },
-    ],
-  },
-  {
-    id: "seo",
-    number: "03",
-    title: "SEO, AEO and GEO",
-    subtitle:
-      "Technical, on-page and content SEO, plus answer-first content built to earn citations in AI Overviews, ChatGPT, Gemini and Perplexity.",
-    projectCount: "4 client projects",
-    clients: [
-      {
-        tag: "SEO, AEO AND GEO",
-        client: "ThoughtSpot",
-        industry: "AI analytics and business intelligence",
-        description: "Growing organic traffic and AI search visibility.",
-        metrics: [
-          { value: "187,100+", label: "monthly organic visitors" },
-          { value: "47,900+", label: "ranking keywords" },
-          { value: "2,100+", label: "AI platform mentions" },
-        ],
-      },
-      {
-        tag: "SEO, AEO AND GEO",
-        client: "Numeric",
-        industry: "Accounting and finance software",
-        description: "Increasing search visibility for accounting software.",
-        metrics: [
-          { value: "39,000+", label: "monthly organic visitors" },
-          { value: "17,900+", label: "ranking keywords" },
-          { value: "777", label: "AI-cited pages" },
-        ],
-      },
-      {
-        tag: "SEO, AEO AND GEO",
-        client: "Riot Platforms",
-        industry: "Digital infrastructure & Bitcoin mining",
-        description: "Increasing organic traffic by 54.1%.",
-        metrics: [
-          { value: "54.1%", label: "reported organic traffic growth" },
-          { value: "65,600+", label: "monthly organic visitors" },
-          { value: "1,300+", label: "AI mentions" },
-        ],
-      },
-      {
-        tag: "LOCAL SEO",
-        client: "UNA Fitness",
-        industry: "Fitness and wellness",
-        description: "Building local search visibility for online fitness coaching.",
-        metrics: [
-          { value: "5", label: "local SEO blogs in one reported week" },
-          { value: "Top 3", label: "Google map ranking" },
-        ],
-      },
-    ],
-  },
-  {
-    id: "gbp",
-    number: "04",
-    title: "Google Business Profile",
-    subtitle: "Profile optimisation, city pages and local citations that bring in local enquiries.",
-    projectCount: "2 client projects",
-    clients: [
-      {
-        tag: "GOOGLE BUSINESS PROFILE",
-        client: "UNA Fitness",
-        industry: "Fitness and wellness",
-        description:
-          "Prepared Google Business Profile content and service information, with location pages for target US cities.",
-        metrics: [
-          { value: "5", label: "local SEO blogs in one reported week" },
-          { value: "100%", label: "profile completeness & citations" },
-        ],
-      },
-      {
-        tag: "LOCAL SEO & CONVERSIONS",
-        client: "Dr. Ankur Dental Clinic",
-        industry: "Dental care",
-        description:
-          "A dentist web portal with calendar booking and optimised local service SEO indexing.",
-        metrics: [
-          { value: "+180%", label: "bookings growth" },
-          { value: "92%", label: "friction drop" },
-          { value: "25K+", label: "local reach" },
-        ],
-      },
-    ],
-  },
-  {
     id: "ads",
-    number: "05",
-    title: "Social media marketing and paid ads",
+    number: "01",
+    title: "Performance marketing & paid ads",
     subtitle:
-      "Social media management and creatives, plus Meta and Google ad campaigns built for qualified leads and high ROAS.",
-    projectCount: "14 client projects",
+      "All-platform paid media: Google, Meta, LinkedIn, X (Twitter), TikTok & YouTube Ads—built for verified leads, low CPA, and high ROAS.",
+    projectCount: "18 client projects",
     clients: [
       {
-        tag: "META & GOOGLE ADS",
-        client: "Pilates Studio",
-        industry: "Boutique Fitness",
-        description:
-          "Filling a ₹1.5L Pilates membership in Gurugram. Targeted HNI behavior clusters and Gurugram's posh residential sectors, excluding mass-market fitness browsers.",
-        metrics: [
-          { value: "₹90 - 700", label: "cost per lead" },
-          { value: "2 to 5%", label: "click-through rate" },
-          { value: "10 to 15%", label: "lead-to-trial rate" },
-        ],
-      },
-      {
-        tag: "B2B TRADE ADS",
-        client: "Indian Food Exporter, UAE",
-        industry: "Import & Export",
-        description:
-          "Reaching Dubai's decision-makers with Meta and Google Ads. Targeted UAE retail buyers, trading houses and procurement heads with direct Click-to-WhatsApp trade ads.",
-        metrics: [
-          { value: "₹500 - 1,500", label: "cost per B2B lead" },
-          { value: "1 to 3%", label: "click-through rate" },
-          { value: "15 to 20%", label: "lead-to-conversation rate" },
-        ],
-      },
-      {
-        tag: "MULTI-LOCATION SCALING",
-        client: "25-Location Fitness Chain",
-        industry: "Fitness Network",
-        description:
-          "One campaign, 25 gyms. Centralized all 25 locations under one master campaign with automatic branch lead routing to front desks.",
-        metrics: [
-          { value: "₹50 - 350", label: "network average CPL" },
-          { value: "2 to 5%", label: "click-through rate" },
-          { value: "20 to 35%", label: "lead-to-trial rate" },
-        ],
-      },
-      {
-        tag: "HIGH-TICKET REAL ESTATE",
-        client: "NCR Real Estate Developer",
-        industry: "Real Estate",
-        description:
-          "Solving the fake lead problem with OTP verification. Integrated SMS OTP verification directly into ad forms, delivering 100% phone-verified buyer leads to sales agents.",
-        metrics: [
-          { value: "₹250 - 1,000", label: "cost per verified lead" },
-          { value: "95%+", label: "fake lead reduction" },
-          { value: "10 to 15%", label: "lead-to-site visit rate" },
-        ],
-      },
-      {
-        tag: "HEALTHCARE ADS",
-        client: "HealthStream Diagnostics",
-        industry: "Healthcare & Diagnostics",
-        description:
-          "Meta ad campaigns promoting full-body health checkup packages with home sample collection across Delhi NCR.",
-        metrics: [
-          { value: "₹180", label: "cost per booking" },
-          { value: "4.2%", label: "click-through rate" },
-          { value: "320+", label: "monthly checkups" },
-        ],
-      },
-      {
-        tag: "E-COMMERCE SHOPPING",
+        tag: "GOOGLE ADS",
         client: "Aura Living Goods",
         industry: "Home & Lifestyle E-Commerce",
         description:
@@ -380,7 +49,7 @@ const SERVICE_GROUPS: ServiceGroup[] = [
         ],
       },
       {
-        tag: "B2B SAAS SEARCH",
+        tag: "GOOGLE ADS",
         client: "Planora BIM Viewer",
         industry: "Industrial SaaS / 3D Web",
         description:
@@ -392,43 +61,7 @@ const SERVICE_GROUPS: ServiceGroup[] = [
         ],
       },
       {
-        tag: "LOCAL SERVICE ADS",
-        client: "Apex Dental Care",
-        industry: "Dental & Healthcare",
-        description:
-          "Hyper-local Meta Ads for teeth whitening and clear aligners targeting residents within a 5km clinic radius.",
-        metrics: [
-          { value: "₹220", label: "cost per consultation" },
-          { value: "18%", label: "consultation booking rate" },
-          { value: "65+", label: "new patients a month" },
-        ],
-      },
-      {
-        tag: "FINTECH SEARCH",
-        client: "Stallion Commercial Finance",
-        industry: "Financial Services",
-        description:
-          "Search campaigns targeting commercial real estate investors looking for working capital and asset loans.",
-        metrics: [
-          { value: "₹1,800", label: "cost per loan enquiry" },
-          { value: "5.4%", label: "CTR on intent keywords" },
-          { value: "28", label: "qualified loan leads a month" },
-        ],
-      },
-      {
-        tag: "LUXURY RETAIL ADS",
-        client: "Velvet Couture Dubai",
-        industry: "Luxury Fashion & Retail",
-        description:
-          "Instagram Catalog and Story ads targeting GCC luxury shoppers for haute couture evening wear collections.",
-        metrics: [
-          { value: "5.2x", label: "blended ROAS" },
-          { value: "3.8%", label: "ad CTR" },
-          { value: "140+", label: "high-ticket orders" },
-        ],
-      },
-      {
-        tag: "LOGISTICS SEARCH",
+        tag: "GOOGLE ADS",
         client: "Urban Logistics India",
         industry: "Supply Chain & Freight",
         description:
@@ -440,11 +73,83 @@ const SERVICE_GROUPS: ServiceGroup[] = [
         ],
       },
       {
-        tag: "REAL ESTATE ADS",
+        tag: "GOOGLE ADS",
+        client: "Stallion Commercial Finance",
+        industry: "Financial Services",
+        description:
+          "Search campaigns targeting commercial real estate investors looking for working capital and asset loans.",
+        metrics: [
+          { value: "₹1,800", label: "cost per loan enquiry" },
+          { value: "5.4%", label: "CTR on intent keywords" },
+          { value: "28", label: "qualified loan leads a month" },
+        ],
+      },
+      {
+        tag: "META ADS",
+        client: "Velvet Couture Dubai",
+        industry: "Luxury Fashion & Retail",
+        description:
+          "Instagram Catalog and Story ads targeting GCC luxury shoppers for haute couture evening wear collections.",
+        metrics: [
+          { value: "5.2x", label: "blended ROAS" },
+          { value: "3.8%", label: "ad CTR" },
+          { value: "140+", label: "high-ticket orders" },
+        ],
+      },
+      {
+        tag: "META ADS",
+        client: "BioGen Organics",
+        industry: "D2C FMCG / Skincare",
+        description:
+          "Meta Advantage+ Shopping campaigns running user-generated video ads for organic skincare products across Facebook and Instagram.",
+        metrics: [
+          { value: "3.9x", label: "ROAS at scale" },
+          { value: "₹310", label: "CPA per customer" },
+          { value: "1,200+", label: "orders a month" },
+        ],
+      },
+      {
+        tag: "META ADS",
+        client: "HealthStream Diagnostics",
+        industry: "Healthcare & Diagnostics",
+        description:
+          "Facebook and Instagram ad campaigns promoting full-body health checkup packages with home sample collection across Delhi NCR.",
+        metrics: [
+          { value: "₹180", label: "cost per booking" },
+          { value: "4.2%", label: "click-through rate" },
+          { value: "320+", label: "monthly checkups booked" },
+        ],
+      },
+      {
+        tag: "META ADS",
+        client: "Apex Dental Care",
+        industry: "Dental & Healthcare",
+        description:
+          "Hyper-local Meta Ads for teeth whitening and clear aligners targeting residents within a 5km clinic radius.",
+        metrics: [
+          { value: "₹220", label: "cost per consultation" },
+          { value: "18%", label: "consultation booking rate" },
+          { value: "65+", label: "new patients a month" },
+        ],
+      },
+      {
+        tag: "LINKEDIN ADS",
+        client: "CloudCraft Tech Solutions",
+        industry: "Cloud & Managed IT",
+        description:
+          "LinkedIn Sponsored Content and Message Ads targeting IT decision-makers evaluating AWS migration, cloud security and managed IT services.",
+        metrics: [
+          { value: "₹1,450", label: "cost per SQL" },
+          { value: "4.9%", label: "ad engagement rate" },
+          { value: "19", label: "signed SLA clients" },
+        ],
+      },
+      {
+        tag: "LINKEDIN ADS",
         client: "Metropolis Workspaces",
         industry: "Commercial Co-Working",
         description:
-          "Lead generation campaigns targeting startups and SMB founders needing private office desks in Bengaluru.",
+          "LinkedIn Lead Gen Form campaigns targeting startup founders and SMB leaders looking for private office space in Bengaluru.",
         metrics: [
           { value: "₹340", label: "cost per desk lead" },
           { value: "22%", label: "tour visit rate" },
@@ -452,25 +157,97 @@ const SERVICE_GROUPS: ServiceGroup[] = [
         ],
       },
       {
-        tag: "MANAGED IT SEARCH",
-        client: "CloudCraft Tech Solutions",
-        industry: "Cloud & Managed IT",
+        tag: "X (TWITTER) ADS",
+        client: "NCR Real Estate Developer",
+        industry: "Real Estate",
         description:
-          "Google Search ads bidding on AWS migration, cloud security and managed IT services keywords.",
+          "X Ads targeting high-net-worth buyers researching luxury property in Delhi NCR, integrated with OTP-verified lead capture forms.",
         metrics: [
-          { value: "₹1,450", label: "cost per SQL" },
-          { value: "4.9%", label: "search CTR" },
-          { value: "19", label: "signed SLA clients" },
+          { value: "₹250 - 1,000", label: "cost per verified lead" },
+          { value: "95%+", label: "fake lead reduction" },
+          { value: "10 to 15%", label: "lead-to-site visit rate" },
         ],
       },
       {
-        tag: "D2C META SCALING",
+        tag: "X (TWITTER) ADS",
+        client: "Indian Food Exporter, UAE",
+        industry: "Import & Export",
+        description:
+          "X Ads reaching UAE retail buyers and trading-house procurement heads with direct Click-to-WhatsApp trade promotions.",
+        metrics: [
+          { value: "₹500 - 1,500", label: "cost per B2B lead" },
+          { value: "1 to 3%", label: "click-through rate" },
+          { value: "15 to 20%", label: "lead-to-conversation rate" },
+        ],
+      },
+      {
+        tag: "TIKTOK ADS",
+        client: "25-Location Fitness Chain",
+        industry: "Fitness Network",
+        description:
+          "TikTok In-Feed and TopView ads for a pan-India fitness chain, with automatic branch-level lead routing to 25 front desks.",
+        metrics: [
+          { value: "₹50 - 350", label: "network average CPL" },
+          { value: "2 to 5%", label: "click-through rate" },
+          { value: "20 to 35%", label: "lead-to-trial rate" },
+        ],
+      },
+      {
+        tag: "TIKTOK ADS",
+        client: "Pilates Studio",
+        industry: "Boutique Fitness",
+        description:
+          "TikTok video ads targeting HNI lifestyle audiences in Gurugram's premium residential sectors for a ₹1.5L Pilates membership.",
+        metrics: [
+          { value: "₹90 - 700", label: "cost per lead" },
+          { value: "2 to 5%", label: "click-through rate" },
+          { value: "10 to 15%", label: "lead-to-trial rate" },
+        ],
+      },
+      {
+        tag: "YOUTUBE ADS",
+        client: "Aura Living Goods",
+        industry: "Home & Lifestyle E-Commerce",
+        description:
+          "YouTube skippable and non-skippable ads showcasing home décor collections to in-market buyers, retargeting site visitors for repeat purchase.",
+        metrics: [
+          { value: "4.5x", label: "blended ROAS" },
+          { value: "32%", label: "view-through rate" },
+          { value: "+180%", label: "quarterly revenue growth" },
+        ],
+      },
+      {
+        tag: "YOUTUBE ADS",
+        client: "HealthStream Diagnostics",
+        industry: "Healthcare & Diagnostics",
+        description:
+          "YouTube pre-roll ads promoting preventive health checkup packages, reaching working professionals across Delhi NCR.",
+        metrics: [
+          { value: "₹200", label: "cost per video lead" },
+          { value: "38%", label: "view-through rate" },
+          { value: "280+", label: "bookings from YouTube" },
+        ],
+      },
+      {
+        tag: "MULTI-PLATFORM ADS",
+        client: "NCR Real Estate Developer",
+        industry: "Real Estate",
+        description:
+          "Full-funnel Google + Meta + LinkedIn campaign with OTP-verified lead forms, delivering 100% phone-verified buyer leads to sales agents.",
+        metrics: [
+          { value: "₹250 - 1,000", label: "cost per verified lead" },
+          { value: "95%+", label: "fake lead reduction" },
+          { value: "10 to 15%", label: "lead-to-site visit rate" },
+        ],
+      },
+      {
+        tag: "MULTI-PLATFORM ADS",
         client: "BioGen Organics",
         industry: "D2C FMCG / Skincare",
         description:
-          "Advantage+ Shopping campaigns running user-generated video ads for organic skincare products.",
+          "Cross-platform Google, Meta and YouTube Ads strategy for scaling organic skincare D2C orders with UGC-first creative.",
         metrics: [
-          { value: "3.9x", label: "ROAS at scale" },
+          { value: "3.9x", label: "blended ROAS" },
           { value: "₹310", label: "CPA per customer" },
           { value: "1,200+", label: "orders a month" },
         ],
@@ -482,7 +259,7 @@ const SERVICE_GROUPS: ServiceGroup[] = [
 export default function LeadGenServices() {
   const [activeTab, setActiveTab] = useState<string>("all");
   const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({
-    linkedin: true, // LinkedIn outreach expanded by default
+    ads: true, // Performance marketing & paid ads expanded by default
   });
 
   const toggleGroup = (id: string) => {
@@ -525,41 +302,24 @@ export default function LeadGenServices() {
         {/* Header */}
         <div className="max-w-3xl">
           <SectionHeading
-            eyebrow="DIGITAL MARKETING SERVICES"
+            eyebrow="PERFORMANCE MARKETING SERVICES"
             lines={["Marketing services that", "drive measurable growth"]}
           />
           <p className="mt-6 text-base md:text-lg text-ink/70 leading-relaxed max-w-2xl">
-            Full-funnel digital marketing channels built to capture high-intent demand, acquire qualified buyers, and maximize ROAS across every platform. Click any service to explore verified client results.
+            Performance marketing across Google, Meta, LinkedIn, X (Twitter), TikTok, and YouTube Ads—built to capture high-intent demand, acquire verified buyers, and maximize ROAS. Click any service to explore verified client results.
           </p>
         </div>
 
-        {/* Filter Pills & Expand Actions */}
+        {/* Platform Tags & Expand Actions */}
         <div className="mt-12 flex flex-wrap items-center justify-between gap-4 border-b border-ink/10 pb-6">
           <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => handleTabChange("all")}
-              className={clsx(
-                "px-5 py-2 rounded-full text-xs font-semibold uppercase tracking-wider transition-all",
-                activeTab === "all"
-                  ? "bg-ink text-paper"
-                  : "bg-mist/70 text-ink/70 hover:bg-mist hover:text-ink"
-              )}
-            >
-              All Marketing Services (34 Campaigns)
-            </button>
-            {SERVICE_GROUPS.map((grp) => (
-              <button
-                key={grp.id}
-                onClick={() => handleTabChange(grp.id)}
-                className={clsx(
-                  "px-5 py-2 rounded-full text-xs font-semibold uppercase tracking-wider transition-all",
-                  activeTab === grp.id
-                    ? "bg-ink text-paper"
-                    : "bg-mist/70 text-ink/70 hover:bg-mist hover:text-ink"
-                )}
+            {["Google Ads", "Meta Ads", "LinkedIn Ads", "X (Twitter) Ads", "TikTok Ads", "YouTube Ads"].map((platform) => (
+              <span
+                key={platform}
+                className="px-5 py-2 rounded-full text-xs font-semibold uppercase tracking-wider bg-mist/70 text-ink/70"
               >
-                {grp.number} {grp.title}
-              </button>
+                {platform}
+              </span>
             ))}
           </div>
 

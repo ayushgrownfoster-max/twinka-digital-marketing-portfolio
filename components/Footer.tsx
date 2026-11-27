@@ -34,7 +34,7 @@ export default function Footer() {
           <div>
             <p className="mb-3 font-display font-semibold text-paper text-base">Twinka Singhal.</p>
             <p className="leading-relaxed">
-              Data-driven digital marketing, performance advertising, and organic search growth for businesses that want to scale.
+              Performance marketing across Google, Meta, LinkedIn, X (Twitter), TikTok &amp; YouTube Ads for businesses that want to scale.
             </p>
           </div>
           <div className="flex flex-col gap-2.5">

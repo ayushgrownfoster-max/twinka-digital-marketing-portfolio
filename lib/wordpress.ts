@@ -141,10 +141,10 @@ export async function getPortfolioProjectsByCategory(category: "performance" | "
 
 export async function getSiteStats(): Promise<SiteStat[]> {
   return [
-    { value: "200+", label: "Meetings & Enquiries" },
-    { value: "3.8X", label: "Average ROAS" },
-    { value: "43%", label: "Average Email Open Rate" },
-    { value: "27%", label: "LinkedIn Acceptance Rate" },
+    { value: "5.2X", label: "Peak Blended ROAS" },
+    { value: "95%+", label: "OTP-Verified Lead Quality" },
+    { value: "1,200+", label: "Monthly D2C Orders Scaled" },
+    { value: "14+", label: "Performance Ad Verticals" },
   ];
 }
 
@@ -497,14 +497,14 @@ const PLACEHOLDER_CASE_STUDIES: CaseStudy[] = [
 ];
 
 const PLACEHOLDER_SERVICES: Service[] = [
-  { number: "01", title: "LinkedIn Outreach", description: "Connection and follow-up sequences built on Sales Navigator, written for decision-maker segments." },
-  { number: "02", title: "Email Marketing & Cold Email", description: "Cold and nurture email campaigns, from warmed sending setups to booked calendar calls." },
-  { number: "03", title: "SEO, AEO & GEO", description: "Technical and content SEO engineered to earn citations in AI Overviews, ChatGPT, Gemini and Perplexity." },
-  { number: "04", title: "Google Business Profile", description: "Profile optimisation, location pages and local citations that drive calls and local walk-ins." },
-  { number: "05", title: "Performance Marketing", description: "Meta and Google ad campaigns optimized for verified leads, low CPL and high ROAS." },
-  { number: "06", title: "Lead Verification & Qualification", description: "Integrated OTP SMS verification and form validation that eliminates spam leads completely." },
-  { number: "07", title: "CRM & Routing Automation", description: "Direct calendar booking and automated lead routing straight to your sales team's inbox and CRM." },
-  { number: "08", title: "Creative & Copywriting", description: "High-converting ad angles, cold email copy, and landing page architecture built for conversions." },
+  { number: "01", title: "Google Ads", description: "High-intent Search, Google Shopping, Display, and Performance Max campaigns capturing buyers ready to convert." },
+  { number: "02", title: "Meta Ads (Facebook & Instagram)", description: "Full-funnel Meta Advantage+, Catalog, Story, and Click-to-WhatsApp ad campaigns engineered for low CPA and high ROAS." },
+  { number: "03", title: "LinkedIn Ads", description: "Account-based Sponsored Content, Lead Gen Forms, and InMail targeting B2B decision-makers by role, industry, and company size." },
+  { number: "04", title: "YouTube Ads", description: "Direct-response in-stream video and YouTube Shorts campaigns engineered to build demand and drive trackable conversions." },
+  { number: "05", title: "TikTok Ads", description: "High-velocity UGC creative testing, Spark Ads, and conversion campaigns built to scale D2C and consumer brands." },
+  { number: "06", title: "X (Twitter) Ads", description: "Real-time promoted posts, product launch bursts, and interest-targeted campaigns for SaaS, fintech, and high-growth brands." },
+  { number: "07", title: "OTP-Verified Lead Generation", description: "Two-step SMS OTP verification integrated into ad forms to eliminate fake leads and deliver 95%+ verified buyers." },
+  { number: "08", title: "Conversion Tracking & Attribution", description: "Server-side CAPI, GA4, Google Ads offline conversion tracking, and transparent multi-platform ROAS dashboards." },
 ];
 
 const PLACEHOLDER_CLIENTS: Client[] = [

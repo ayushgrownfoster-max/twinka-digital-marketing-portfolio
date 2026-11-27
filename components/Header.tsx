@@ -15,7 +15,7 @@ const NAV_LINKS = [
 ];
 
 /* ─── Logo typing pill ─── */
-const LOGO_TAGS = ["Digital Marketing", "Paid Ads", "SEO & AEO", "Lead Gen", "Meta & Google Ads"];
+const LOGO_TAGS = ["Google Ads", "Meta Ads", "LinkedIn Ads", "YouTube Ads", "TikTok & X Ads"];
 
 function useLogoTypewriter(phrases: string[], speed = 65, pause = 2200, del = 40) {
   const [text, setText] = useState("");

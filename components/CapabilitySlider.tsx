@@ -17,69 +17,69 @@ interface CapabilitySlide {
 
 const CAPABILITIES: CapabilitySlide[] = [
   {
-    id: "digital-marketing",
+    id: "google-ads",
     number: "01",
-    title: "Full-Funnel Digital Marketing",
-    tag: "GROWTH & ACQUISITION",
+    title: "Google Ads",
+    tag: "SEARCH, SHOPPING & PMAX",
     description:
-      "Targeted multi-channel acquisition funnels converting cold digital audiences into scheduled sales calendar calls and revenue.",
-    stat: "200+",
-    statLabel: "Meetings & Enquiries",
+      "Exact-match Search, Google Shopping, and Performance Max campaigns capturing buyers actively searching to purchase.",
+    stat: "6.8%",
+    statLabel: "Peak Search CTR",
     linkHref: "/#services",
   },
   {
-    id: "linkedin",
+    id: "meta-ads",
     number: "02",
-    title: "LinkedIn Outreach",
-    tag: "SALES NAVIGATOR",
+    title: "Meta Ads",
+    tag: "FACEBOOK & INSTAGRAM",
     description:
-      "Precision prospect lists, 180+ weekly connection requests, and personalized follow-ups for senior decision-makers.",
-    stat: "27%",
-    statLabel: "Avg Acceptance Rate",
+      "Advantage+ Shopping, Catalog, Story, and Click-to-WhatsApp campaigns engineered for low CPA and high ROAS.",
+    stat: "5.2x",
+    statLabel: "Peak Blended ROAS",
     linkHref: "/#services",
   },
   {
-    id: "email",
+    id: "linkedin-ads",
     number: "03",
-    title: "Email Marketing",
-    tag: "COLD & NURTURE",
+    title: "LinkedIn Ads",
+    tag: "B2B ABM & LEAD GEN",
     description:
-      "Warmed secondary sending infrastructure, persuasive offer copy, and automated follow-up sequences.",
-    stat: "43%",
-    statLabel: "Average Open Rate",
+      "Account-based Sponsored Content and Lead Gen Forms targeting senior decision-makers by role, industry, and company size.",
+    stat: "42+",
+    statLabel: "Enterprise Demos / Mo",
     linkHref: "/#services",
   },
   {
-    id: "seo",
+    id: "youtube-ads",
     number: "04",
-    title: "SEO, AEO and GEO",
-    tag: "SEARCH & AI VISIBILITY",
+    title: "YouTube Ads",
+    tag: "IN-STREAM & SHORTS",
     description:
-      "Technical audits, schema markup, and content engineered to rank in Google and be cited in ChatGPT, Gemini & Perplexity.",
-    stat: "187K+",
-    statLabel: "Monthly Organic Visitors",
+      "Direct-response video and YouTube Shorts campaigns engineered to build demand and drive trackable conversions.",
+    stat: "3.9x",
+    statLabel: "Video Campaign ROAS",
     linkHref: "/#services",
   },
   {
-    id: "gbp",
+    id: "tiktok-ads",
     number: "05",
-    title: "Google Business Profile",
-    tag: "LOCAL SEARCH 3-PACK",
+    title: "TikTok Ads",
+    tag: "UGC & D2C SCALING",
     description:
-      "Complete profile optimization, citation cleanup, and location landing pages that generate phone calls and foot traffic.",
-    stat: "#1",
-    statLabel: "Local 3-Pack Rankings",
+      "High-velocity UGC creative testing, Spark Ads, and conversion campaigns built for rapid D2C and consumer scaling.",
+    stat: "1,200+",
+    statLabel: "Monthly Orders Scaled",
     linkHref: "/#services",
   },
   {
-    id: "ads",
+    id: "twitter-ads",
     number: "06",
-    title: "Social Media & Paid Ads",
-    tag: "PERFORMANCE MARKETING",
+    title: "X (Twitter) Ads",
+    tag: "REAL-TIME & TECH",
     description:
-      "Meta and Google ad campaigns optimized for verified lead quality with integrated OTP verification to block spam.",
+      "Promoted posts, product launch bursts, and interest-targeted campaigns for SaaS, fintech, and high-growth brands.",
     stat: "95%+",
-    statLabel: "Verified Lead Quality",
+    statLabel: "OTP-Verified Leads",
     linkHref: "/#services",
   },
 ];
@@ -135,7 +135,7 @@ export default function CapabilitySlider() {
           <div className="flex items-center gap-3">
             <span className="h-2 w-2 rounded-full bg-accent animate-pulse" />
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-ink/50">
-              DIGITAL MARKETING CAPABILITIES
+              PERFORMANCE MARKETING CAPABILITIES
             </span>
           </div>
 

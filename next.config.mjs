@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  allowedDevOrigins: ["192.168.50.100"],
   images: {
     // Add your WordPress media host(s) here once the CMS is live, e.g.
     // { protocol: 'https', hostname: 'cms.grownfoster.com', pathname: '/wp-content/uploads/**' }

@@ -3,14 +3,14 @@
 import { useState, type FormEvent } from "react";
 
 const SERVICES = [
-  "Digital Marketing & Strategy",
-  "LinkedIn Outreach",
-  "Email Marketing & Cold Email",
-  "SEO, AEO & Search Visibility",
-  "Meta & Google Ads",
-  "Performance Marketing",
-  "Google Business Profile & Local SEO",
-  "Lead Verification & Conversion Optimization",
+  "Google Ads",
+  "Meta Ads (Facebook & Instagram)",
+  "LinkedIn Ads",
+  "YouTube Ads",
+  "TikTok Ads",
+  "X (Twitter) Ads",
+  "Full-Funnel Performance Marketing",
+  "OTP-Verified Lead Generation",
 ];
 const BUDGETS = ["Under ₹2L / mo", "₹2L – ₹5L / mo", "₹5L – ₹10L / mo", "₹10L+ / mo"];
 

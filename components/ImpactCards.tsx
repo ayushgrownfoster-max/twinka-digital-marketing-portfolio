@@ -15,27 +15,27 @@ interface ImpactCardItem {
 
 const IMPACT_ITEMS: ImpactCardItem[] = [
   {
-    tag: "SEO, AEO AND GEO",
-    stat: "187,100+",
-    statLabel: "monthly organic visitors",
-    title: "Growing organic traffic and AI search visibility",
-    client: "ThoughtSpot",
-    href: "/work",
-  },
-  {
-    tag: "PERFORMANCE MARKETING",
+    tag: "HIGH-TICKET REAL ESTATE",
     stat: "95%+",
     statLabel: "fake lead reduction",
-    title: "Solving the fake lead problem with OTP verification",
+    title: "Solving the fake lead problem with SMS OTP verification",
     client: "NCR Real Estate Developer",
     href: "/work",
   },
   {
-    tag: "EMAIL MARKETING",
-    stat: "6",
-    statLabel: "tours booked",
-    title: "A $4,000 offer that brought families back for a tour",
-    client: "Primrose School of Rockland",
+    tag: "E-COMMERCE SHOPPING",
+    stat: "4.5x",
+    statLabel: "average ROAS",
+    title: "Google Shopping & PMax scaling quarterly sales by +180%",
+    client: "Aura Living Goods",
+    href: "/work",
+  },
+  {
+    tag: "LUXURY RETAIL ADS",
+    stat: "5.2x",
+    statLabel: "blended ROAS",
+    title: "Instagram Catalog & Story ads driving 140+ high-ticket orders",
+    client: "Velvet Couture Dubai",
     href: "/work",
   },
 ];

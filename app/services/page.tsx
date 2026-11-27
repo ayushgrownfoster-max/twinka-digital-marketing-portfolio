@@ -3,8 +3,8 @@ import ServiceList from "@/components/ServiceList";
 import RevealText from "@/components/RevealText";
 
 export const metadata = {
-  title: "Digital Marketing Services | Twinka Singhal",
-  description: "Full-funnel digital marketing services: Meta & Google Ads, SEO & AI search visibility, B2B lead generation, and performance marketing.",
+  title: "Performance Marketing Services | Twinka Singhal",
+  description: "Full-funnel performance marketing across Google, Meta, LinkedIn, X (Twitter), TikTok, and YouTube Ads—built for OTP-verified leads and high ROAS.",
 };
 
 export default async function ServicesPage() {
@@ -16,15 +16,15 @@ export default async function ServicesPage() {
         {/* Header */}
         <div className="mb-20 md:mb-32 max-w-3xl">
           <span className="mb-3 block text-xs font-semibold uppercase tracking-[0.2em] text-ink/50">
-            DIGITAL MARKETING SERVICES
+            PERFORMANCE MARKETING SERVICES
           </span>
           <RevealText
             as="h1"
-            lines={["Marketing services that", "drive measurable growth"]}
+            lines={["All-platform paid ads", "built to scale ROAS"]}
             className="font-display text-5xl md:text-7xl lg:text-8xl text-ink uppercase tracking-tight"
           />
           <p className="mt-8 text-lg text-ink/70">
-            Full-funnel digital marketing strategies engineered to capture high-intent buyers, lower acquisition costs, and scale your brand profitably.
+            Performance marketing across Google, Meta, LinkedIn, X (Twitter), TikTok, and YouTube Ads—engineered for measurable ROAS and OTP-verified leads.
           </p>
         </div>
 

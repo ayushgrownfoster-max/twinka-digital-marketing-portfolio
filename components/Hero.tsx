@@ -40,17 +40,17 @@ function useTypewriter(phrases: string[], speed = 55, pauseMs = 2000, deleteSpee
 }
 
 const TAGLINES = [
-  "scales your revenue.",
-  "maximizes ad ROAS.",
-  "dominates search & AI engines.",
-  "generates high-intent buyers.",
+  "scales Google & Meta Ads.",
+  "converts on LinkedIn & X Ads.",
+  "drives ROI on TikTok & YouTube.",
+  "delivers 3.8x–5.2x ROAS.",
 ];
 
 const STATS = [
-  { value: "200+", label: "qualified leads & meetings generated" },
-  { value: "3.8X", label: "average marketing ROAS delivered" },
-  { value: "43%", label: "average email campaign open rate" },
-  { value: "10+", label: "years in digital marketing" },
+  { value: "5.2X", label: "peak blended ROAS achieved" },
+  { value: "95%+", label: "fake lead reduction via OTP" },
+  { value: "1,200+", label: "monthly orders scaled for D2C" },
+  { value: "10+", label: "years in performance marketing" },
 ];
 
 /* ─── Main Hero Component ─── */
@@ -88,14 +88,14 @@ export default function Hero() {
           {/* H1 Headline */}
           <RevealText
             as="h1"
-            lines={["Digital marketing that", "scales revenue & leads."]}
+            lines={["Performance marketing", "that scales your ROAS."]}
             className="font-display text-[2.6rem] leading-[1.04] md:text-[4rem] lg:text-[5.2rem] xl:text-[6.2rem] font-bold text-ink tracking-tight max-w-5xl"
           />
 
           {/* Typing tagline — dynamic punch */}
           <div className="mt-4 flex flex-wrap items-baseline gap-x-2 min-h-[2.5rem]">
             <span className="font-display text-xl md:text-2xl text-ink/40 font-light">
-              Campaigns that
+              Paid campaigns that
             </span>
             <span className="font-display text-xl md:text-2xl font-bold text-ink">
               {typedText}
@@ -106,10 +106,10 @@ export default function Hero() {
           {/* Subtext from the design */}
           <div className="mt-6 max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-ink/45 mb-2">
-              Digital Marketing Strategy
+              Performance Marketing &amp; Paid Ads
             </p>
             <p className="text-base md:text-lg text-ink/75 leading-relaxed">
-              I scale businesses through full-funnel digital marketing: high-ROAS Meta &amp; Google Ads, technical SEO &amp; AI answer visibility, LinkedIn outreach, and cold email campaigns that convert qualified audiences into predictable revenue. Partnering with growth-focused brands across the USA, UK, Canada, India, and the GCC.
+              I build and scale high-ROAS campaigns across Google, Meta, LinkedIn, X (Twitter), TikTok, and YouTube Ads for D2C brands, B2B companies, real estate developers, and multi-location businesses—backed by OTP lead verification and strict attribution across India, the USA, UK, Canada, and the GCC.
             </p>
           </div>
 
@@ -164,20 +164,20 @@ export default function Hero() {
             <div className="max-w-xl">
               <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3.5 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-accent mb-3">
                 <span className="h-1.5 w-1.5 rounded-full bg-accent animate-pulse" />
-                DIGITAL MARKETING SPECIALIST
+                PERFORMANCE MARKETING SPECIALIST
               </span>
               <p className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-paper leading-snug">
-                I don&apos;t just run ads. <br className="hidden sm:inline" />
-                <span className="text-paper/70 font-normal">I build predictable digital marketing engines that convert.</span>
+                I don&apos;t just buy clicks. <br className="hidden sm:inline" />
+                <span className="text-paper/70 font-normal">I engineer profitable ad systems that scale ROAS and verified leads.</span>
               </p>
             </div>
 
             <div className="rounded-2xl border border-white/15 bg-white/5 backdrop-blur-md p-5 shadow-lg self-start md:self-auto min-w-[260px]">
               <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-paper/50 mb-1">
-                Verified Marketing Outcomes
+                Verified Paid Media Outcomes
               </p>
               <p className="font-display text-base font-semibold text-paper">
-                3.8X ROAS · 10+ Yrs Exp
+                4.5X–5.2X ROAS · 95%+ Verified
               </p>
               <p className="text-xs text-accent mt-1 font-medium">
                 USA · UK · Canada · GCC · India
